@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: telegram-afk-bot
+    env: python
+    buildCommand: pip install -r render_requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: API_ID
+        value: "22776206"
+      - key: API_HASH
+        value: "ada968d0b6551a6c766b864ecfeffcd5"
+      - key: BOT_TOKEN
+        value: "8046947223:AAE-vBQ6rw0pHm9JvCjSHjv1fZ5qYtR7b0A"
+      - key: WEB_PORT
+        value: "10000"
