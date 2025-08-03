@@ -2,7 +2,7 @@ services:
   - type: web
     name: telegram-afk-bot
     env: python
-    buildCommand: pip install -r render_requirements.txt
+    buildCommand: pip install -r requirements.txt
     startCommand: python main.py
     envVars:
       - key: API_ID
