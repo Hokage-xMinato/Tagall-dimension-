@@ -3,7 +3,7 @@ import os
 # Bot configuration
 API_ID = int(os.getenv("API_ID", "22776206"))
 API_HASH = os.getenv("API_HASH", "ada968d0b6551a6c766b864ecfeffcd5")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8046947223:AAE-vBQ6rw0pHm9JvCjSHjv1fZ5qYtR7b0A")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7752301486:AAGnj82e0kgolqrg6-YIzB3QFj26d46IlVs")
 
 # Web server configuration
 WEB_PORT = int(os.getenv("WEB_PORT", "5000"))
